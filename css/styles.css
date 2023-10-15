@@ -687,13 +687,13 @@ body {
   margin-top:20px;
   padding-top:20px;
   padding-bottom:40px;
-  border-bottom:1px lightgray solid;
+  border-bottom:3px lightgray solid;
 }
 .parent:last-child {
   border-bottom:0px;
 }
 .project-item-sub{
-  margin-left:20%;
+  /* margin-left:20%; */
 }
 .project-item:last-child {
   margin-bottom: 0;
@@ -1248,4 +1248,18 @@ body {
 
 .portfolio-img{
   max-width:200px;
+}
+
+.category{
+  max-width:120px !important;
+}
+
+.details{
+  text-align:center;
+  margin-bottom:20px;
+  padding:20px 0 20px 0;
+  border:1px #ccc solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #ccc;
+
 }

@@ -6,11 +6,29 @@
  * Time: 2:26 PM
  */
 
+
 $imgs = [
     '1'  => [
-        'name' => 'PHP',
-        'info' => 'PHP Senior Software Engineer/Developer. Over 17 years experience.',
-        'tag'  => 'server'
+        'name' => 'Server Side',
+        'info' => '',
+        'tag'  => 'server',
+        'technologies' => [
+            1 => [
+                'name' => 'PHP',
+                'info' => 'PHP Senior Software Engineer/Developer. Over 15 years of professional experience.',
+                'tag'  => '',
+            ],
+            2 => [
+                'name' => 'Python',
+                'info' => 'Newly experienced Python developer',
+                'tag'  => '',
+            ],
+            3 => [
+                'name' => 'NodeJS',
+                'info' => 'Experienced NodeJS developer',
+                'tag'  => '',
+            ],
+        ]
     ],
     '2'  => [
         'name'         => 'Database Management<br>and Architecture',
@@ -32,7 +50,29 @@ $imgs = [
     '4'  => [
         'name' => 'API Development',
         'info' => 'Custom API development for accepting data, sending data and authentication',
-        'tag'  => ''
+        'tag'  => '',
+        'technologies' => [
+            1 => [
+                'name' => 'Stripe',
+                'info' => '',
+                'tag'  => 'third_party'
+            ],
+            2 => [
+                'name' => 'Twilio',
+                'info' => '',
+                'tag'  => 'third_party'
+            ],
+            3 => [
+                'name' => 'Google APIs',
+                'info' => '',
+                'tag'  => 'third_party'
+            ],
+            4 => [
+                'name' => 'WooCommerce',
+                'info' => '',
+                'tag'  => 'third_party'
+            ]
+        ]
     ],
     '9'  => [
         'name'         => 'MVC Frameworks',
@@ -103,22 +143,19 @@ $imgs = [
     '17' => [
         'name' => 'E-commerce',
         'info' => '',
-        'tag'  => 'ecommerce'
-    ],
-    '20' => [
-        'name' => 'Twilio',
-        'info' => '',
-        'tag'  => 'third_party'
-    ],
-    '21' => [
-        'name' => 'Stripe',
-        'info' => '',
-        'tag'  => ''
-    ],
-    '6'  => [
-        'name' => 'Google APIs',
-        'info' => '',
-        'tag'  => ''
+        'tag'  => 'ecommerce',
+        'technologies' => [
+            1 => [
+                'name' => 'WooCommerce',
+                'info' => '',
+                'tag'  => 'ecommerce'
+            ],
+            2 => [
+                'name' => 'Opencart',
+                'info' => '',
+                'tag'  => 'ecommerce'
+            ],
+        ]
     ],
     '23' => [
         'name' => 'Agile Development',
@@ -136,26 +173,36 @@ $imgs = [
                 'tag'  => '',
             ],
             3 => [
-                'name' => 'PHP Storm',
+                'name' => 'PhpStorm',
+                'info' => '',
+                'tag'  => '',
+            ],
+            4 => [
+                'name' => 'PyCharm',
                 'info' => '',
                 'tag'  => '',
             ],
         ]
     ],
     '3'  => [
-        'name' => 'Full Stack Front<br>End Developer',
+        'name' => 'Front End Developer',
         'info' => 'HTML, JS, CSS, Vue.JS',
         'tag'  => 'frontend',
         'technologies' => [
             1 => [
                 'name' => 'jQuery',
                 'info' => '',
-                'tag'  => '',
+                'tag'  => 'front_end',
             ],
             2 => [
                 'name' => 'Vue.JS',
                 'info' => '',
-                'tag'  => '',
+                'tag'  => 'front_end',
+            ],
+            3 => [
+                'name' => 'ReactJS',
+                'info' => '',
+                'tag'  => 'front_end',
             ],
         ]
     ],

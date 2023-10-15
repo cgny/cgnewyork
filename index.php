@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include('partials/header.php'); ?>
+<?php
+include('classes/Ext.class.php');
+
+use classes\Ext;
+
+include('partials/header.php');
+?>
 
 <body class="home">
 
@@ -44,8 +50,11 @@
                                 ?>
 
                                 <div class="project-sub parent">
-                                    <div class="project-item">
-                                            <?php if(file_exists("images/projects/c$k.jpg")){ ?> <img class="portfolio-img" src="images/projects/c<?= $k ?>.jpg" alt="">  <?php  }elseif(file_exists("images/projects/c$k.png")){  ?>  <img class="portfolio-img" src="images/projects/c<?= $k ?>.png" alt=""> <?php } ?>
+                                    <div class="project-item x">
+                                            <?php
+                                            $ext = Ext::determineExt($k);
+                                            if($ext){ ?> <img class="portfolio-img category" src="images/projects/c<?= $k ?>.<?= $ext ?>" alt=""> <?php } ?>
+
                                         <h2 class="title">
                                             <a href="#"><?= $img['name'] ?></a>
                                         </h2>
@@ -54,24 +63,33 @@
 
                                     if(isset($img['technologies']))
                                     {
+                                        ?>
+                                        <div class="details">
+                                        <?php
+
                                         foreach ($img['technologies'] as $sub_k => $sub_img)
                                         {
                                             ?>
                                             <div class="project-item project-item-sub">
                                                     <?php
-                                                    if (file_exists("images/projects/c$k-$sub_k.jpg"))
-                                                    { ?> <img class="portfolio-img"
-                                                              src="images/projects/c<?= "$k-$sub_k" ?>.jpg"
-                                                              alt="">  <?php } elseif (file_exists("images/projects/c$k-$sub_k.png")) { ?>
+                                                    $ext = "";
+                                                    $ext = Ext::determineExt($k,$sub_k);
+                                                    if($ext){ ?>
+                                                        <?= $sub_img['name'] ?>
+                                                            <br>
                                                         <img class="portfolio-img"
-                                                             src="images/projects/c<?= "$k-$sub_k" ?>.png"
-                                                             alt=""> <?php } ?>
-                                                <h2 class="title">
+                                                             src="images/projects/c<?= "$k-$sub_k" ?>.<?= $ext ?>"
+                                                             alt="">
+                                                    <?php } ?>
+                                            <h2 class="title">
                                                     <!-- <a href="#"><?= $sub_img['name'] ?></a> -->
                                                 </h2>
                                             </div>
                                             <?php
                                         }
+                                        ?>
+                                        </div>
+                                        <?php
                                     }
                                 ?>
 
