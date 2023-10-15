@@ -205,7 +205,7 @@ $imgs = [
                 'tag'  => 'front_end',
             ],
             4 => [
-                'name' => 'Javascript',
+                'name' => 'JavaScript',
                 'info' => '',
                 'tag'  => 'front_end',
             ],
