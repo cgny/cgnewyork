@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="758c7935-0b40-4033-b314-fa374227fffe" name="Default Changelist" comment="" />
+    <list default="true" id="758c7935-0b40-4033-b314-fa374227fffe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/partials/professional-links.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/professional-links.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,6 +186,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/var/www/html/local.cgnewyork.com",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -212,6 +215,7 @@
       <workItem from="1634209784087" duration="65000" />
       <workItem from="1641865240507" duration="6641000" />
       <workItem from="1697430501093" duration="1268000" />
+      <workItem from="1700362782701" duration="333000" />
     </task>
     <servers />
   </component>

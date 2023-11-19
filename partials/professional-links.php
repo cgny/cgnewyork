@@ -21,11 +21,11 @@
             </a>
             -->
             <a href="https://github.com/cgny" target="_blank">
-                <i class="fa fa-github">Github</i>
+                <i class="fa fa-github"> Github </i>
             </a>
 
             <a href="https://www.linkedin.com/in/cgibbs2010/" target="_blank">
-                <i class="fa fa-linkedin">LinkedIn</i>
+                <i class="fa fa-linkedin"> LinkedIn </i>
             </a>
             <!--
             <a href="#">
