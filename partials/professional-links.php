@@ -19,12 +19,14 @@
             <a href="#">
                 <i class="fa fa-twitter"></i>
             </a>
-            <a href="#">
-                <i class="fa fa-google-plus"></i>
+            -->
+            <a href="https://github.com/cgny" target="_blank">
+                <i class="fa fa-github"></i>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/cgibbs2010/" target="_blank">
                 <i class="fa fa-linkedin"></i>
             </a>
+            <!--
             <a href="#">
                 <i class="fa fa-pinterest"></i>
             </a>
