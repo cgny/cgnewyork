@@ -72,11 +72,6 @@ $imgs = [
                 'info' => '',
                 'tag'  => 'third_party'
             ],
-            4 => [
-                'name' => 'WooCommerce',
-                'info' => '',
-                'tag'  => 'third_party'
-            ]
         ]
     ],
     '9'  => [
@@ -121,7 +116,23 @@ $imgs = [
     '16' => [
         'name' => 'Server Security',
         'info' => '',
-        'tag'  => 'security'
+        'tag'  => 'security',
+        'technologies' => [
+            1 => [
+                'name' => 'SSL Encryption',
+                'info' => '',
+                'tag'  => '',
+            ],
+            2 => [
+                'name' => 'AES 256 Encryption',
+                'info' => '',
+                'tag'  => '',
+            ],
+            3 => [
+                'name' => 'Apache2 Mod Security Firewall',
+                'info' => '',
+                'tag'  => '',
+            ],
     ],
     '5'  => [
         'name'         => 'Serverless/Cloud Computing',

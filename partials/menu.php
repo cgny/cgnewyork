@@ -27,8 +27,13 @@
                             <?php
                             foreach($imgs as $k => $img)
                             {
-                                echo "<li>";
-                                    echo "<a class='link' id='". $img['name'] ."' href='/#". $img['tag'] ."'>". $img['name'] ."</a>";
+                                $active = "";
+                                if (stristr($_SERVER['REQUEST_URI'], $img['name']))
+                                {
+                                    $active = "active";
+                                }
+                                echo "<li class='$active'>";
+                                    echo "<a class='anchor' id='". $img['name'] ."' href='/#". $img['tag'] ."'>". $img['name'] ."</a>";
                                 echo "</li>";
                             }
                             ?>

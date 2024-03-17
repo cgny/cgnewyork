@@ -158,9 +158,13 @@
 			});
 		}
 
-		$('.link').click(function(){
-			$('.link').removeClass('active');
-			$(this).addClass('active');
+		$('.anchor').click(function(){
+			$('.anchor').parent().removeClass('active');
+			$(this).parent().addClass('active');
+		});
+
+		$(window).scroll(function(){
+
 		});
 
 	});
