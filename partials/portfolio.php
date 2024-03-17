@@ -133,6 +133,7 @@ $imgs = [
                 'info' => '',
                 'tag'  => '',
             ],
+        ]
     ],
     '5'  => [
         'name'         => 'Serverless/Cloud Computing',
