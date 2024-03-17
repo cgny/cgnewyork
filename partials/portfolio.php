@@ -167,6 +167,16 @@ $imgs = [
                 'info' => '',
                 'tag'  => 'ecommerce'
             ],
+            3 => [
+                'name' => 'Shopify',
+                'info' => '',
+                'tag'  => 'ecommerce'
+            ],
+            4 => [
+                'name' => 'Magento',
+                'info' => '',
+                'tag'  => 'ecommerce'
+            ],
         ]
     ],
     '23' => [
