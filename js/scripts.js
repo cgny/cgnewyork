@@ -157,6 +157,12 @@
 				$preload.fadeOut(400);
 			});
 		}
+
+		$('.link').click(function(){
+			$('.link').removeClass('active');
+			$(this).addClass('active');
+		});
+
 	});
 
 })(jQuery);

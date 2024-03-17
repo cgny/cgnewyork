@@ -32,9 +32,9 @@ include('partials/header.php');
 		<div class="container">
 			<div class="row">
 
-        <?php include('partials/menu.php'); ?>
-
         <?php include('partials/portfolio.php'); ?>
+
+        <?php include('partials/menu.php'); ?>
 
                 <a name="home"></a>
 				<div class="col-md-9 col-md-offset-3">
@@ -43,7 +43,7 @@ include('partials/header.php');
                         <?php
                             foreach($imgs as $k => $img)
                             {
-                                if(!empty($img['tag']))
+                                if($img['tag'])
                                 {
                                     echo '<a class="tag-section" name="'. $img['tag'] .'">'. $img['tag'] .'</a>';
                                 }
@@ -56,7 +56,7 @@ include('partials/header.php');
                                             if($ext){ ?> <img class="portfolio-img category" src="images/projects/c<?= $k ?>.<?= $ext ?>" alt=""> <?php } ?>
 
                                         <h2 class="title">
-                                            <a href="#"><?= $img['name'] ?></a>
+                                            <a href="#<?php $img['tag'] ?? ""; ?>"><?= $img['name'] ?></a>
                                         </h2>
                                     </div>
                                 <?php

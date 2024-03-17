@@ -19,11 +19,16 @@ $imgs = [
                 'tag'  => '',
             ],
             2 => [
+                'name' => 'Apache2',
+                'info' => '2',
+                'tag'  => '',
+            ],
+            3 => [
                 'name' => 'Python',
                 'info' => 'Newly experienced Python developer',
                 'tag'  => '',
             ],
-            3 => [
+            4 => [
                 'name' => 'NodeJS',
                 'info' => 'Experienced NodeJS developer',
                 'tag'  => '',
@@ -33,7 +38,7 @@ $imgs = [
     '2'  => [
         'name'         => 'Database Management<br>and Architecture',
         'info'         => '',
-        'tag'          => '',
+        'tag'          => 'database',
         'technologies' => [
             1 => [
                 'name' => 'MySQL',
@@ -50,7 +55,7 @@ $imgs = [
     '4'  => [
         'name' => 'API Development',
         'info' => 'Custom API development for accepting data, sending data and authentication',
-        'tag'  => '',
+        'tag'  => 'api',
         'technologies' => [
             1 => [
                 'name' => 'Stripe',
@@ -77,7 +82,7 @@ $imgs = [
     '9'  => [
         'name'         => 'MVC Frameworks',
         'info'         => '',
-        'tag'          => '',
+        'tag'          => 'mvc',
         'technologies' => [
             1 => [
                 'name' => 'Laravel',
@@ -99,7 +104,7 @@ $imgs = [
     '11' => [
         'name' => 'Linux OS<br>and Server Management',
         'info' => '',
-        'tag'  => '',
+        'tag'  => 'server',
         'technologies' => [
             1 => [
                 'name' => 'Ubuntu',
@@ -111,17 +116,12 @@ $imgs = [
                 'info' => '',
                 'tag'  => '',
             ],
-            3 => [
-                'name' => 'Apache2',
-                'info' => '2',
-                'tag'  => '',
-            ],
         ]
     ],
     '16' => [
         'name' => 'Server Security',
         'info' => '',
-        'tag'  => ''
+        'tag'  => 'security'
     ],
     '5'  => [
         'name'         => 'Serverless/Cloud Computing',

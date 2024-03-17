@@ -25,6 +25,7 @@
 		<div class="container">
 			<div class="row">
 
+                <?php include('partials/portfolio.php'); ?>
                 <?php include('partials/menu.php'); ?>
 
 				<div class="col-md-9 col-md-offset-3">

@@ -25,6 +25,7 @@
 		<div class="container">
 			<div class="row">
 
+                <?php include('partials/portfolio.php'); ?>
                 <?php include('partials/menu.php'); ?>
 
                 <a name="home"></a>
@@ -33,7 +34,7 @@
 
 						<article class="post">
 							<div class="post-media">
-                                <img src="images/IMG-20210524-WA0020.jpg" alt="Contact">
+                                <img src="images/IMG_20230607_015920.jpg" alt="Contact">
 							</div>
 							<div class="post-content">
 								<h2 class="title">About Me</h2>

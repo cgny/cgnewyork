@@ -21,24 +21,17 @@
                 <div class="main-menu">
                     <nav>
                         <ul class="menu-list">
-                            <li class="<?php if(isset($_SERVER['REQUEST_URI']) && ( $_SERVER['REQUEST_URI'] == "/" || stristr($_SERVER['REQUEST_URI'],"index")) ){ echo "active"; } ?> menu-item-has-children">
+                            <li class="link <?php if(isset($_SERVER['REQUEST_URI']) && ( $_SERVER['REQUEST_URI'] == "/" || stristr($_SERVER['REQUEST_URI'],"index")) ){ echo "active"; } ?> menu-item-has-children">
                                 <a href="/index.php#home">Home</a>
                             </li>
-                            <li>
-                                <a href="/index.php#server">Server Side</a>
-                            </li>
-                            <li>
-                                <a href="/index.php#ecommerce">E-Commerce</a>
-                            </li>
-                            <li>
-                                <a href="/index.php#third_party">Third Party</a>
-                            </li>
-                            <li>
-                                <a href="/index.php#development">Development</a>
-                            </li>
-                            <li>
-                                <a href="/index.php#frontend">Front End</a>
-                            </li>
+                            <?php
+                            foreach($imgs as $k => $img)
+                            {
+                                echo "<li>";
+                                    echo "<a class='link' id='". $img['name'] ."' href='/#". $img['tag'] ."'>". $img['name'] ."</a>";
+                                echo "</li>";
+                            }
+                            ?>
                             <li class="<?php if(isset($_SERVER['REQUEST_URI']) && ( $_SERVER['REQUEST_URI'] == "/about.php" || stristr($_SERVER['REQUEST_URI'],"about")) ){ echo "active"; } ?>">
                                 <a href="/about.php">About Me</a>
                             </li>
