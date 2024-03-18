@@ -41,19 +41,28 @@
 
 								<!-- The Content -->
 								<div class="the-content">
-									<p>Senior level PHP sofwtare engineer/developer with over 17 years of development experience.</p>
+									<p>Senior level PHP software engineer/developer with over 17 years of development experience.</p>
                                     <ul>
                                         <li>
-                                            Self-motivated software developer
+                                            Visionary
                                         </li>
                                         <li>
-                                            Time management efficiency
+                                            Software engineer background
+                                        </li>
+                                        <li>
+                                            Highly motivated software developer
+                                        </li>
+                                        <li>
+                                            Accept challenges and driven to find solutions
                                         </li>
                                         <li>
                                             Results driven planning and project management
                                         </li>
                                         <li>
                                             Full cycle development
+                                        </li>
+                                        <li>
+                                            Full stack developer
                                         </li>
                                     </ul>
 
