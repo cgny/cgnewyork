@@ -16,7 +16,7 @@
                         <div class="col-sm-6">
                             <h2 class="title">About Me</h2>
                             <p>
-                               A software engineer/developer with over 20 years experience.
+                               A software engineer/developer with over 17 years experience.
                             </p>
                         </div>
                         <div class="col-sm-6">
