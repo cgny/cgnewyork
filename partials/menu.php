@@ -21,7 +21,7 @@
                 <div class="main-menu">
                     <nav>
                         <ul class="menu-list">
-                            <li class="link <?php if(isset($_SERVER['REQUEST_URI']) && ( $_SERVER['REQUEST_URI'] == "/" || stristr($_SERVER['REQUEST_URI'],"index")) ){ echo "active"; } ?> menu-item-has-children">
+                            <li id="home" class="link <?php if(isset($_SERVER['REQUEST_URI']) && ( $_SERVER['REQUEST_URI'] == "/" || stristr($_SERVER['REQUEST_URI'],"index")) ){ echo "active"; } ?> menu-item-has-children">
                                 <a href="/index.php#home">Home</a>
                             </li>
                             <?php
@@ -32,8 +32,8 @@
                                 {
                                     $active = "active";
                                 }
-                                echo "<li class='$active'>";
-                                    echo "<a class='anchor' id='". $img['name'] ."' href='/#". $img['tag'] ."'>". $img['name'] ."</a>";
+                                echo "<li id='". $img['tag'] ."' class='$active'>";
+                                    echo "<a class='anchor' id='' href='/#". $img['tag'] ."'>". $img['name'] ."</a>";
                                 echo "</li>";
                             }
                             ?>

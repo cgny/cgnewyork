@@ -164,7 +164,17 @@
 		});
 
 		$(window).scroll(function(){
-
+			$.each($('.tag-section'),function(x,y){
+				let s = $(this).offset().top - window.scrollY;
+				if(s > -100 && s < 400)
+				{
+					$('#'+y.name).addClass('active');
+				}
+				else
+				{
+					$('#'+y.name).removeClass('active');
+				}
+			});
 		});
 
 	});
