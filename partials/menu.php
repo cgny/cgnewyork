@@ -32,8 +32,8 @@
                                 {
                                     $active = "active";
                                 }
-                                echo "<li id='". $img['tag'] ."' class='$active'>";
-                                    echo "<a class='anchor' id='' href='/#". $img['tag'] ."'>". $img['name'] ."</a>";
+                                echo "<li id='". $img['tag'] ."_li' class='$active'>";
+                                    echo "<a class='anchor' href='#". $img['tag'] ."'>". $img['name'] ."</a>";
                                 echo "</li>";
                             }
                             ?>

@@ -168,11 +168,11 @@
 				let s = $(this).offset().top - window.scrollY;
 				if(s > -100 && s < 400)
 				{
-					$('#'+y.name).addClass('active');
+					$('#'+y.id+'_li').addClass('active');
 				}
 				else
 				{
-					$('#'+y.name).removeClass('active');
+					$('#'+y.id+'_li').removeClass('active');
 				}
 			});
 		});

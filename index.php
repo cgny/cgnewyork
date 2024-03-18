@@ -45,7 +45,7 @@ include('partials/header.php');
                             {
                                 if($img['tag'])
                                 {
-                                    echo '<a class="tag-section" name="'. $img['tag'] .'">'. $img['tag'] .'</a>';
+                                    echo '<a class="tag-section" id="'. $img['tag'] .'" name="'. $img['tag'] .'">'. $img['tag'] .'</a>';
                                 }
                                 ?>
 
@@ -56,7 +56,7 @@ include('partials/header.php');
                                             if($ext){ ?> <img class="portfolio-img category" src="images/projects/c<?= $k ?>.<?= $ext ?>" alt=""> <?php } ?>
 
                                         <h2 class="title">
-                                            <a href="#<?php $img['tag'] ?? ""; ?>"><?= $img['name'] ?></a>
+                                            <a><?= $img['name'] ?></a>
                                         </h2>
                                     </div>
                                 <?php
