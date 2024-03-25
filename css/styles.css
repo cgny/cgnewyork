@@ -288,7 +288,7 @@ a {
   transition: all 0.3s ease;
 }
 a:hover {
-  color: #000000 !important;
+  color: #ccc !important;
 }
 .quicklinks a:hover,
 .quicklinks a:active,
@@ -426,7 +426,7 @@ body {
   padding: 50px 0 0;
   font-family: 'Lato', serif;
   font-size: 14px;
-  background: #ffffff;
+  background: #000;
   color: #333333;
   overflow-x: hidden;
   line-height: 24px;
@@ -538,7 +538,7 @@ body {
   display: block;
 }
 .main-menu .active a {
-  color: #000000;
+  color: #fff;
 }
 .main-menu li {
   position: relative;
@@ -570,11 +570,11 @@ body {
   padding-bottom: 10px;
 }
 .main-menu .sub-menu a {
-  color: #000000 !important;
+  color: #fff !important;
 }
 .logo {
   font-size: 40px;
-  color: #000000;
+  color: #fff;
   text-transform: uppercase;
   padding-bottom: 60px;
   letter-spacing: 2px;
@@ -700,15 +700,15 @@ body {
 }
 .project-item .title {
   position: absolute;
-  top: 20px;
+  top: -15px;
   left: 20px;
   opacity: 1;
   text-align:left;
+  color: #ccc;
   /* visibility: hidden; */
 }
 .project-item .title a {
-  background-color: #fff;
-  color: #000;
+  color: #ccc;
   font-size: 14px;
   display: inline-block;
   line-height: 24px;
@@ -1261,5 +1261,5 @@ body {
   border:1px #ccc solid;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #ccc;
-
+  background: #fff;
 }

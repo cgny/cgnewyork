@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="758c7935-0b40-4033-b314-fa374227fffe" name="Default Changelist" comment="" />
+    <list default="true" id="758c7935-0b40-4033-b314-fa374227fffe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/projects/c1-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/projects/c1-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/portfolio.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,6 +224,8 @@
       <workItem from="1700362782701" duration="1004000" />
       <workItem from="1710691875137" duration="5281000" />
       <workItem from="1710732520245" duration="5134000" />
+      <workItem from="1710775486298" duration="501000" />
+      <workItem from="1711343089479" duration="5573000" />
     </task>
     <servers />
   </component>

@@ -39,8 +39,9 @@
 <!-- Google tag (gtag.js) -->
 
 <!-- Scripts -->
-<script src="js/libs/jquery-1.12.4.min.js"></script>
-<script src="js/libs/jquery.justifiedGallery.min.js"></script>
-<script src="js/libs/jquery.magnific-popup.js"></script>
-<script src="js/scripts.js"></script>
+<script src="/js/libs/jquery-1.12.4.min.js"></script>
+<script src="/js/libs/jquery.justifiedGallery.min.js"></script>
+<script src="/js/libs/jquery.magnific-popup.js"></script>
+<script src="/js/scripts.js"></script>
+<script src="/js/conflict-detection.min.js"></script>
 <!-- End Scripts -->

@@ -50,13 +50,10 @@ include('partials/header.php');
                                 ?>
 
                                 <div class="project-sub parent">
-                                    <div class="project-item x">
-                                            <?php
-                                            $ext = Ext::determineExt($k);
-                                            if($ext){ ?> <img class="portfolio-img category" src="images/projects/c<?= $k ?>.<?= $ext ?>" alt=""> <?php } ?>
+                                    <div class="project-item">
 
                                         <h2 class="title">
-                                            <a><?= $img['name'] ?></a>
+                                            <a><?= $img['name'] ?></a> <i class="<?= $img['icon'] ?>"></i>
                                         </h2>
                                     </div>
                                 <?php
@@ -81,7 +78,7 @@ include('partials/header.php');
                                                              src="images/projects/c<?= "$k-$sub_k" ?>.<?= $ext ?>"
                                                              alt="">
                                                     <?php } ?>
-                                            <h2 class="title">
+                                                <h2 class="title">
                                                     <!-- <a href="#"><?= $sub_img['name'] ?></a> -->
                                                 </h2>
                                             </div>

@@ -16,11 +16,13 @@
 
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,600,700%7CLato:400,700' type='text/css' media='all' />
 
-    <link rel="stylesheet" type="text/css" href="css/libs/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/libs/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/libs/justifiedGallery.min.css">
-    <link rel="stylesheet" type="text/css" href="css/libs/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/libs/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/libs/justifiedGallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/libs/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/regular.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-02SKYGMZX1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
