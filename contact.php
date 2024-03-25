@@ -66,7 +66,7 @@
 											<textarea name="comment" placeholder="Message *"></textarea>
 										</div>
 										<div class="contact-item form-submit">
-											<input name="submit" type="submit" id="submit" class="submit" value="POST Comment">
+											<input name="submit" type="submit" id="submit" class="submit" value="Send Message">
 										</div>
 									</form>
 									<p>&nbsp;</p>
