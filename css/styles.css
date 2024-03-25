@@ -538,7 +538,8 @@ body {
   display: block;
 }
 .main-menu .active a {
-  color: #fff;
+  color: #ed2e03;
+  margin-right: 10px;
 }
 .main-menu li {
   position: relative;
