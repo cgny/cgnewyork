@@ -47,7 +47,7 @@
 									</p>
 									<ul>
 										<li>
-                                            <strong>Email:</strong> <a href="mailto:christian@cgnewyork.com">christian@cgnewyork.com</a>
+                                            <strong>Email:</strong> christian@cgnewyork.com
 										</li>
 									</ul>
 									<p>&nbsp;</p>
