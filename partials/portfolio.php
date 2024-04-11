@@ -34,6 +34,11 @@ $imgs = [
                 'info' => 'Experienced NodeJS developer',
                 'tag'  => '',
             ],
+            5 => [
+                'name' => 'NGINX',
+                'info' => 'Web server',
+                'tag'  => '',
+            ],
         ]
     ],
     '2'  => [
