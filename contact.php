@@ -47,7 +47,7 @@
 									</p>
 									<ul>
 										<li>
-                                            <strong>Email:</strong> christian@cgnewyork.com
+                                            <strong>Email:</strong> <a id="email_id" href="#">Email Me!</a>
 										</li>
 									</ul>
 									<p>&nbsp;</p>

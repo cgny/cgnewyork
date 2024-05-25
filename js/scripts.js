@@ -179,4 +179,13 @@
 
 	});
 
+	var me = "christian";
+	var place = "cgnewyork.com";
+
+	/* 2. find email link to replace */
+	var elink = document.getElementById("email_id");
+
+	/* 3. replace link href with variables  */
+	elink.href = `mailto:${me}@${place}`;
+
 })(jQuery);
