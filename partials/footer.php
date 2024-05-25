@@ -14,13 +14,21 @@
                 <div class="footer-inner">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h2 class="title">About Me</h2>
+                            <h2 class="title">
+                                <a href="/about.php">
+                                    About Me
+                                </a>
+                            </h2>
                             <p>
                                A software engineer/developer with over 17 years experience in global, enterprise level software development.
                             </p>
                         </div>
                         <div class="col-sm-6">
-                            <h2 class="title">Contact Me</h2>
+                            <h2 class="title">
+                                <a href="/contact.php">
+                                    Contact Me
+                                </a>
+                            </h2>
                             <ul>
                                 <li>
                                     Email: christian@cgnewyork.com
