@@ -31,7 +31,7 @@
                             </h2>
                             <ul>
                                 <li>
-                                    Email: christian@cgnewyork.com
+                                    Email: <a id="email_id" href="#">Email Me!</a>
                                 </li>
                             </ul>
                         </div>
@@ -52,4 +52,15 @@
 <script src="/js/libs/jquery.magnific-popup.js"></script>
 <script src="/js/scripts.js"></script>
 <script src="/js/conflict-detection.min.js"></script>
+<script>
+    /* 1. define variables */
+    var me = "christian";
+    var place = "cgnewyork.com";
+
+    /* 2. find email link to replace */
+    var elink = document.getElementById("email_id");
+
+    /* 3. replace link href with variables  */
+    elink.href = `mailto:${me}@${place}`;
+</script>
 <!-- End Scripts -->
