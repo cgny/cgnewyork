@@ -575,7 +575,7 @@ body {
 }
 .logo {
   font-size: 40px;
-  color: #fff;
+  color: #333;
   text-transform: uppercase;
   padding-bottom: 60px;
   letter-spacing: 2px;
@@ -709,7 +709,7 @@ body {
   /* visibility: hidden; */
 }
 .project-item .title a {
-  color: #ccc;
+  color: #333;
   font-size: 14px;
   display: inline-block;
   line-height: 24px;
